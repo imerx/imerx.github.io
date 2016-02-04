@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <title>Imer portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <div class="row">
+          <div class=" col-md-2">
+            <img class="lmg-responsive" src="https://sumozasnullpointer.files.wordpress.com/2015/04/udacity-logo.jpg" alt="Udacity Logo">
+          </div>
+          <div class="col-md-10 text-right text-uppercase">
+            <h1 class=" title-super text-thin">Imer Desena</h1>
+            <h4>Front-End Ninja</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="bar">
+            <div class="col-md-12">
+              <hr>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Start navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Fron-End Ninja</a>
+          </div>
+          <div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--close navbar -->
+      <main>
+        <div class="img-container">
+          <div class="row">
+            <div class="col-md-12 " >
+              <img  class="img-responsive img-main"
+                src="images/Coffee_1280w.jpg"
+                srcset="images/girl_1280.jpg 1280w, images/girl_640.jpg 640w"
+                sizes="(max-width: 960px) 50vw, 100vw"
+                alt="Main girl image">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+          </div>
+        </div>
+        <div class="row">
+          <section class="image-group text-center">
+            <figure class="col-md-4">
+              <!-- Start Modal for Image flower Iris  -->
+              <a href="#" id="pop1">
+              <img class=" img-responsive img-flower" src="images/iris.jpg" data-toggle="modal" data-target="#irisModal" alt="Image of flower Iris" > <a href="#" ></a></a>
+              <div id="irisModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="text-uppercase">Iris</h4>
+                    </div>
+                    <div class="modal-body">
+                      <img class=" img-responsive img-flower" src="images/iris.jpg" alt="Iris flower image">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec orci eros, bibendum sed ultrices ac, rutrum sit amet nisi. Integer maximus, diam a placerat cursus, purus ante vehicula eros, vitae lobortis risus augue eget sapien. Nulla posuere euismod odio, eget euismod eros. Phasellus in elit turpis. Vestibulum ornare ultricies odio vel molestie. Sed commodo feugiat orci non elementum. In venenatis sapien eget purus rutrum pulvinar. Morbi risus purus, efficitur in facilisis lobortis, maximus eu metus. Sed vel rhoncus enim. Vivamus sit amet lorem tortor. Sed arcu elit, venenatis eu elit eget, pretium hendrerit tortor. Curabitur mollis neque vel odio ultrices malesuada. Vestibulum aliquet commodo tortor, a pulvinar sem ultrices ac. Maecenas ornare augue urna, at volutpat massa rhoncus ac.
+                      <p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  close Modal content -->
+              <figcaption >
+                <h3 class="text-uppercase">Iris</h3>
+                <p><a href="https://unsplash.com/photos/HG419n_6Fro">https://pixabay.com/es/macro-cerrar-flor-la-naturaleza-717106/</a></p>
+              </figcaption>
+            </figure>
+            <!--  start Modal   for figure Sunflower  -->
+            <figure class="col-md-4">
+              <a href="#" id="pop2">
+              <img class=" img-responsive img-flower" src="images/sunflower.jpg" data-toggle="modal" data-target="#sunflowerModal"  alt="image flower sunflower"> <a href="#"></a></a>
+              <div id="sunflowerModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h3 class=" text-uppercase">Sunflower</h3>
+                    </div>
+                    <div class="modal-body">
+                      <img class=" img-responsive img-flower" src="images/sunflower.jpg" alt="Sunflower image">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec orci eros, bibendum sed ultrices ac, rutrum sit amet nisi. Integer maximus, diam a placerat cursus, purus ante vehicula eros, vitae lobortis risus augue eget sapien. Nulla posuere euismod odio, eget euismod eros. Phasellus in elit turpis. Vestibulum ornare ultricies odio vel molestie. Sed commodo feugiat orci non elementum. In venenatis sapien eget purus rutrum pulvinar. Morbi risus purus, efficitur in facilisis lobortis, maximus eu metus. Sed vel rhoncus enim. Vivamus sit amet lorem tortor. Sed arcu elit, venenatis eu elit eget, pretium hendrerit tortor. Curabitur mollis neque vel odio ultrices malesuada. Vestibulum aliquet commodo tortor, a pulvinar sem ultrices ac. Maecenas ornare augue urna, at volutpat massa rhoncus ac.
+                      <p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  close Modal content-->
+              <figcaption>
+                <h3 class="text-uppercase ">Sunflower</h3>
+                <p><a href="https://pixabay.com/es/amarillo-naturales-flor-715540/">https://pixabay.com/es/amarillo-naturales-flor-715540/</a></p>
+              </figcaption>
+            </figure>
+            <!--  start modal for  Aster image -->
+            <figure class="col-md-4">
+              <a href="#" id="pop3">
+              <img class=" img-responsive img-flower" src="images/aster.jpg" data-toggle="modal" data-target="#asterModal"  alt="Image of flower aster"> <a href="#"></a></a>
+              <div id="asterModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="text-uppercase">Aster</h4>
+                    </div>
+                    <div class="modal-body">
+                      <img class=" img-responsive img-flower" src="images/aster.jpg" alt="Aster image">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec orci eros, bibendum sed ultrices ac, rutrum sit amet nisi. Integer maximus, diam a placerat cursus, purus ante vehicula eros, vitae lobortis risus augue eget sapien. Nulla posuere euismod odio, eget euismod eros. Phasellus in elit turpis. Vestibulum ornare ultricies odio vel molestie. Sed commodo feugiat orci non elementum. In venenatis sapien eget purus rutrum pulvinar. Morbi risus purus, efficitur in facilisis lobortis, maximus eu metus. Sed vel rhoncus enim. Vivamus sit amet lorem tortor. Sed arcu elit, venenatis eu elit eget, pretium hendrerit tortor. Curabitur mollis neque vel odio ultrices malesuada. Vestibulum aliquet commodo tortor, a pulvinar sem ultrices ac. Maecenas ornare augue urna, at volutpat massa rhoncus ac.
+                      <p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  close Modal content-->
+              <figcaption>
+                <h3 class="text-uppercase">Aster</h3>
+                <p><a href="https://pixabay.com/es/globo-flowe-platycodon">https://pixabay.com/es/globo-flowe-platycodon</a></p>
+              </figcaption>
+            </figure>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
